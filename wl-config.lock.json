@@ -1,0 +1,31 @@
+{
+  "mask": "sr",
+  "version": "1.0.1",
+  "lib": "react-native-white-label",
+  "maskConfig": {
+    "mask": "sr",
+    "nativeConfig": {
+      "skip": false,
+      "androidApplicationId": "com.avaapp",
+      "iosBundleIdentifier": "com.avaapp",
+      "displayName": "AVA"
+    },
+    "dirCopy": []
+  },
+  "wlConfigLastEditedTime": 1594663616091,
+  "lockedTime": 1594663679178,
+  "metroConfig": {
+    "resolver": {
+      "sourceExts": [
+        "sr.js",
+        "js",
+        "sr.json",
+        "json",
+        "sr.ts",
+        "ts",
+        "sr.tsx",
+        "tsx"
+      ]
+    }
+  }
+}

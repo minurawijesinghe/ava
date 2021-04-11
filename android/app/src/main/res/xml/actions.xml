@@ -1,0 +1,16 @@
+<actions>
+    <action intentName="actions.intent.OPEN_APP_FEATURE">
+        <parameter name="feature">
+            <entity-set-reference entitySetId="FeatureEntitySet" />
+        </parameter>
+        <fulfillment urlTemplate="blindApp://pattern{?featureName}">
+            <parameter-mapping
+                intentParameter="feature"
+                urlParameter="featureName" />
+        </fulfillment>
+    </action>
+    <entity-set entitySetId="FeatureEntitySet">
+        <entity identifier="Camera" name="first feature" />
+        <entity identifier="Color detection" name="second feature" />
+    </entity-set>
+</actions>
